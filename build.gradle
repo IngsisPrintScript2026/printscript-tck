@@ -28,6 +28,15 @@ test {
 }
 
 dependencies {
+    implementation 'org.example:com.ingsis.engine'
+    implementation 'org.example:com.ingsis.common'
+    implementation 'org.example:com.ingsis.charstream'
+    implementation 'org.example:com.ingsis.lexer'
+    implementation 'org.example:com.ingsis.syntactic'
+    implementation 'org.example:com.ingsis.semantic'
+    implementation 'org.example:com.ingsis.interpreter'
+    implementation 'org.example:com.ingsis.formatter'
+    implementation 'org.example:com.ingsis.sca'
     testImplementation 'junit:junit:4.13.1'
 }
 
