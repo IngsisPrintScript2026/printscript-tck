@@ -1,3 +1,5 @@
 rootProject.name = 'printscript-tck'
-includeBuild('../PrintScript')
 
+// if (file('../PrintScript').exists()) {
+//     includeBuild('../PrintScript')
+// }
